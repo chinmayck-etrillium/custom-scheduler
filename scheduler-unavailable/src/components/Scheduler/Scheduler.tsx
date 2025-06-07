@@ -14,10 +14,6 @@ import { registerLicense } from "@syncfusion/ej2-base";
 import { applyCategoryColor } from "./helper";
 import "./Scheduler.css"; // Assuming this is where your custom CSS is
 
-registerLicense(
-  "ORg4AjUWIQA/Gnt2U1hhQlJBfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hTX5UdENjWXtdcnJSQ2ZU"
-);
-
 const Scheduler = () => {
   const scheduleObj = useRef(null);
   const [scheduleData, setScheduleData] = useState([
